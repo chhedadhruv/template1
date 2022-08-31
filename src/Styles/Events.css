@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.experience {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -95rem;
+    /* align-items: center; */
+}
+.exp {
+    background: #4d5467;
+    color: #fff;
+    height: 100rem;
+}
+.exp img {
+    width: 100%;
+    height: 100rem;
+    z-index: 1000;
+    opacity: 0.3;
+}
+.vertical {
+    margin-top: 5rem;
+    border-left: 3px solid #00d646;
+    height: 70rem;
+    position:absolute;
+    left: 50%;
+}
+.event-row {
+    display: flex;
+    flex-direction: row;
+}
+.circle {
+    width: 15px;
+    height: 15px;
+    background: #00d646;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    left: 49.6%;
+}
+.event-info {
+    display: flex;
+    flex-direction: column;
+}
+#event1 {
+    /* margin-top: 5rem;
+    margin-left: 45rem; */
+    /* width: 50%; */
+    position: relative;
+    top: 5rem;
+    left: 50rem;
+}
+#event2 {
+    /* margin-top: 19rem;
+    margin-left: 100rem; */
+    position: relative;
+    top: 33rem;
+    left: 35rem;
+}
+#event3 {
+    position: relative;
+    top: 61rem;
+    left: 20rem;
+}
+#event4 {
+    position: relative;
+    top: 19rem;
+    right: 20rem;
+}
+#event5 {
+    position: relative;
+    top: 47rem;
+    right: 34rem;
+}
+#event6 {
+    position: relative;
+    top: 75rem;
+    right: 48rem;
+}
+/* .event-left {
+    text-align: right;
+} */
+.event-info .event-year {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #00d646;
+    font-size: 16px;
+}
+.event-info p {
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 100%;
+}
+.event-info h5 {
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.event-info .heading {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+/* #event-rhs {
+    /* position: relative;
+    margin-top: 4.8rem;
+    margin-left: 45rem; */
+/* }  */
+
+#cir1 {
+    margin-top: 5rem;
+}
+#cir2 {
+    margin-top: 19rem;
+}
+#cir3 {
+    margin-top: 33rem;
+}
+#cir4 {
+    margin-top: 47rem;
+}
+#cir5 {
+    margin-top: 61rem;
+}
+#cir6 {
+    margin-top: 75rem;
+}

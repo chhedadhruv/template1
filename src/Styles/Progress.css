@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.progress {
+  background: #6f7989;
+  height: 800px;
+}
+.progress img {
+  width: 100%;
+  height: 800px;
+  z-index: 1000;
+  opacity: 0.3;
+}
+.professional {
+    color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 37rem;
+  position: relative;
+  top: -40rem;
+}
+.pro-heading {
+  text-align: center;
+}
+.pro-heading h3 {
+  font-size: 42px;
+  font-family: "Raleway", sans-serif;
+  margin: 0.5rem 0;
+}
+.professional .progress-bars {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 80%;
+  margin: auto;
+}
+.professional .progress-bars .progress-bar p {
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin: 1.5rem 1.5rem;
+  margin-right: 0;
+}
+.professional .progress-bars .progress-bar .bar {
+  background: #00d646;
+  height: 15px;
+}
+.professional .progress-bars .progress-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#bar1 {
+  width: 35rem;
+  margin-left: 1.5rem;
+}
+#bar2 {
+  width: 30rem;
+  margin-left: 3.7rem;
+}
+#bar3 {
+  width: 40rem;
+  margin-left: 2rem;
+}
+#bar4 {
+  width: 50rem;
+  margin-left: 5.5rem;
+}
+#bar5 {
+  width: 40rem;
+  margin-left: 1.5rem;
+}
+#bar6 {
+  width: 35rem;
+  margin-left: 2rem;
+}
+#bar7 {
+  width: 35rem;
+  margin-left: 2rem;
+}
